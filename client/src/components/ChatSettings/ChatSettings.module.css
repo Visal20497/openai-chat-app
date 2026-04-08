@@ -1,0 +1,92 @@
+.panel {
+  padding: 16px 24px 14px;
+  background-color: var(--clr-surface-alt);
+  border-bottom: 1px solid var(--clr-divider);
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.panelTitle {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: var(--clr-text-muted);
+}
+
+.resetBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--clr-text-secondary);
+  transition: background 0.15s, color 0.15s;
+}
+
+.resetBtn:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: var(--clr-text-primary);
+}
+
+.resetIcon {
+  font-size: 16px !important;
+}
+
+.grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.sliderGroup {
+  flex: 1;
+  min-width: 200px;
+}
+
+.sliderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.sliderLabel {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--clr-text-primary);
+}
+
+.valueBadge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 4px;
+}
+
+.valueBadgePrimary {
+  color: var(--clr-primary);
+  background-color: var(--clr-primary-light);
+}
+
+.valueBadgeSecondary {
+  color: var(--clr-secondary);
+  background-color: rgba(139, 92, 246, 0.08);
+}
+
+.sliderCaption {
+  display: block;
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--clr-text-secondary);
+}

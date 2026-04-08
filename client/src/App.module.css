@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
